@@ -8,8 +8,8 @@
       "args": [],
       "stopAtEntry": false,
       "externalConsole": true,
-      "cwd": "c:/Users/thays/Downloads/ED2",
-      "program": "c:/Users/thays/Downloads/ED2/build/Debug/outDebug",
+      "cwd": "c:/Users/thays/Downloads/ED2/ABB",
+      "program": "c:/Users/thays/Downloads/ED2/ABB/build/Debug/outDebug",
       "MIMode": "gdb",
       "miDebuggerPath": "gdb",
       "setupCommands": [

@@ -1,6 +1,6 @@
 #include "arvore.h"
 
-
+//CRIA UM ÁRVORE VAZIA
 Arvore* criaArvoreVazia(void){
     return NULL;
 }
@@ -20,6 +20,7 @@ Arvore* inserir(Arvore* a, int valor){
 
     return a;
 }
+
 //REMOVE UM ELEMENTO NA ÁRVORE
 Arvore* remover(Arvore* a, int valor){
     if(a == NULL){return NULL;}
@@ -58,7 +59,8 @@ Arvore* remover(Arvore* a, int valor){
     }
     return a;
 }
-//LIBERA A MEMORIA DA ÁRVORE
+
+//LIBERA A MEMORIA ALOCADA DA ÁRVORE
 void libera(Arvore* a){
     if (a != NULL) {
       libera (a->esquerda);
@@ -66,10 +68,78 @@ void libera(Arvore* a){
       free(a);
    }
 }
+
+//FUNÇÃO PARA IMPRIMIR OS ELEMENTOS DA ÁRVORE
 void printArvore(Arvore* a){
     if (a != NULL) {
       printf("%d ", a->dado);
       printArvore (a->esquerda);
       printArvore (a->direita);
+    }
+}
+
+//PROCURA SE O ELEMENTO 'valor' ESTA NA LISTA
+int busca(Arvore* a, int valor){
+    if(a == NULL){return 0;}
+    else{
+        
+        if(valor > a->dado){
+            return busca(a->direita, valor);
+        }
+        else if(valor < a->dado){
+            return busca(a->esquerda, valor);
+        }
+        
+    }
+    return 1;
+}
+
+//RETORNA O MENOR VALOR DA LISTA (vai até o extremo do ramo da esquerda - menores numeros)
+int minimo(Arvore* a){
+ int m = -INT_MAX;
+ while(a!=NULL){
+    m= a->dado;
+    a= a->esquerda;
+ }
+ return m;
+}
+
+//RETORNA O MAIOR VALOR DA LISTA (vai até o extremo do ramo da direita - maiores numeros)
+int max(Arvore* a){
+ int m = -INT_MAX;
+ while(a!=NULL){
+    m= a->dado;
+    a= a->direita;
+ }
+ return m;
+}
+
+//IMPRIME A ARVORE EM ORDEM CRESCENTE
+void imprime_decrescente (Arvore *a){
+    if(a != NULL){
+        imprime_decrescente(a->direita);
+        printf("%d ", a->dado);
+        imprime_decrescente(a->esquerda);
+    }
+
+}
+//IMPRIME A ARVORE EM ORDEM DECRESCENTE
+void imprime_crescente(Arvore* a){
+    if(a != NULL){
+        imprime_crescente(a->esquerda);
+        printf("%d ", a->dado);
+        imprime_crescente(a->direita);
+    }
+}
+
+/// /////   ///////////// ////
+int maxRamo(int a, int b) {
+    return (a > b) ? a : b;
+}
+
+int maior_ramo(Arvore *a) {
+    if (a == NULL) {return 0;} 
+    else {
+        return maxRamo(maior_ramo(a->esquerda), maior_ramo(a->direita)) + a->dado;
     }
 }
