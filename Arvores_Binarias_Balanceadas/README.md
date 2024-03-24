@@ -17,4 +17,4 @@
 -  fb(nó-filho e nó-pai) de diferente sinal -> Solucao: rotacao dupla;
 
 # Exercício 1
-![1](https://github.com/thayssaromao/Estrutura-de-Dados/blob/main/Arvores_Binarias_Balanceadas/Exercicio_1.png)
+![1](https://github.com/thayssaromao/Estrutura-de-Dados/blob/main/Arvores_Binarias_Balanceadas/Ex_1.png)
