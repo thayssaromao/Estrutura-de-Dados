@@ -1,4 +1,4 @@
-# AVL
+# 🌳 AVL (Árvore Balanceada de Altura Mínima)
 
 [Site](https://www.cs.usfca.edu/~galles/visualization/AVLtree.html) > Criação de uma AVL
 
@@ -16,5 +16,9 @@
 -  fb (nó-filho e nó-pai) de mesmo sinal -> Solucao: rotacao simples;
 -  fb(nó-filho e nó-pai) de diferente sinal -> Solucao: rotacao dupla;
 
-# Exercício 1
-![1](https://github.com/thayssaromao/Estrutura-de-Dados/blob/main/Arvores_Binarias_Balanceadas/Ex_1.png)
+# 📚 Exercício 1
+## passo a passo + solução
+
+![1](https://github.com/thayssaromao/Estrutura-de-Dados/blob/main/Arvores_Binarias_Balanceadas/Ex_1pt1.jpeg)
+![1](https://github.com/thayssaromao/Estrutura-de-Dados/blob/main/Arvores_Binarias_Balanceadas/Ex_1pt2.jpeg)
+![1](https://github.com/thayssaromao/Estrutura-de-Dados/blob/main/Arvores_Binarias_Balanceadas/Ex_1solucao.png)
