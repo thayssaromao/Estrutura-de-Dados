@@ -22,3 +22,10 @@
 ![1](https://github.com/thayssaromao/Estrutura-de-Dados/blob/main/Arvores_Binarias_Balanceadas/Ex_1pt1.jpeg)
 ![1](https://github.com/thayssaromao/Estrutura-de-Dados/blob/main/Arvores_Binarias_Balanceadas/Ex_1pt2.jpeg)
 ![1](https://github.com/thayssaromao/Estrutura-de-Dados/blob/main/Arvores_Binarias_Balanceadas/Ex_1solucao.png)
+
+
+# 📚 Exercício 2
+## passo a passo + solução
+
+![1](https://github.com/thayssaromao/Estrutura-de-Dados/blob/main/Arvores_Binarias_Balanceadas/frente_page-0001%20(1).jpg)
+![1](https://github.com/thayssaromao/Estrutura-de-Dados/blob/main/Arvores_Binarias_Balanceadas/verso.jpeg.jpg)
