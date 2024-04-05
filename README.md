@@ -22,3 +22,4 @@ A altura (h) dita a complexidade da árvore!
 - Sinais iguais (fb) - rotação simples;
 - Sinais diferentes (fb) - rotação dupla;
 - Ponteiro NULL (árvore nula) -> h=-1, logo, um nó sem filhos a altura é (-1 - (-1) = 0);
+- Remoção - PADRÃO - maior elemento da subárvore da esquerda OU o menor elemento da subárvore da direita;
