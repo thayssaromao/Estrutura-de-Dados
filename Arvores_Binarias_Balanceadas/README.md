@@ -4,6 +4,27 @@
 
 [Site]( https://visualgo.net/en/bst) > Visualização interativa de algoritmos
 
+
+| **A altura (h) dita a complexidade da árvore !!**|
+|---------------------------------------------|
+
+## ⚖️ **Regras de balanceamento:**
+
+- Árvore balanceada O(log n);
+- Rotações simples ou duplas;
+- Fator de balanceamento (fb);
+- Hd -> altura da **SUBÁRVORE** da direita;
+- He -> altura da **SUBÁRVORE** da esquerda;
+- Hd = He = 0 (árvore balanceada);
+- Hd > He = 1 (árvore em equilíbrio);
+- He > Hd = -1 (árvore em equilíbrio);
+- NO rebalanceamento, Fb pai e Fb filho, primeiro rotacionar o filho, depois rotacionar sobre o nó pai; 
+- Sinais iguais (fb) - rotação simples;
+- Sinais diferentes (fb) - rotação dupla;
+- Ponteiro NULL (árvore nula) -> h=-1, logo,  a altura de um nó sem filhos é = (-1 - (-1) = 0);
+- Remoção - PADRÃO - maior elemento da subárvore da esquerda OU o menor elemento da subárvore da direita;
+
+## 👾 **Características**
 - Balanceamento;
 - Rotação;
 - O(n);
