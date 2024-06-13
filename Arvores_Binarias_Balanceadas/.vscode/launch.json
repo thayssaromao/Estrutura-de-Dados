@@ -8,8 +8,8 @@
       "args": [],
       "stopAtEntry": false,
       "externalConsole": true,
-      "cwd": "c:/Users/thays/Downloads/ED2/Arvore_Binaria_Busca",
-      "program": "c:/Users/thays/Downloads/ED2/Arvore_Binaria_Busca/build/Debug/outDebug",
+      "cwd": "c:/Users/thays/Downloads/ED2/Arvores_Binarias_Balanceadas/AVL",
+      "program": "c:/Users/thays/Downloads/ED2/Arvores_Binarias_Balanceadas/AVL/build/Debug/outDebug",
       "MIMode": "gdb",
       "miDebuggerPath": "gdb",
       "setupCommands": [
